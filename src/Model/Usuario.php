@@ -106,6 +106,24 @@ class Usuario
     {
         $this->rg = $rg;
     }
+    public function getCPF()
+    {
+        return $this->cpf;
+    }
+    function setCPF($cpf)
+    {
+        $this->cpf = $cpf;
+    }
+    public function getMatricula()
+    {
+        return $this->matricula;
+    }
+    function setMatricula($matricula)
+    {
+        $this->matricula = $matricula;
+    }
+
+
 
 
 }
