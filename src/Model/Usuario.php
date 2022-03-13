@@ -98,6 +98,14 @@ class Usuario
     {
         $this->logado = $logado;
     }
+    public function getRG()
+    {
+        return $this->rg;
+    }
+    function setRG($rg)
+    {
+        $this->rg = $rg;
+    }
 
 
 }
