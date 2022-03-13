@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Model;
+use BadFunctionCallException;
 
 class Usuario 
 {
@@ -72,6 +73,14 @@ class Usuario
     public function setSenha($senha)
     {
         $this->senha = $senha;
+    }
+    public function getAtivo()
+    {
+        return $this->ativo;
+    }
+    public function setAtivo($ativo)
+    {
+        $this->ativo = $ativo;
     }
 
 
