@@ -1,5 +1,6 @@
 <?php
 
+namespace App\Model;
 
 class Usuario 
 {
@@ -19,5 +20,21 @@ class Usuario
     private $created;
     private $modified;
     private $session_key;
+
+    //Getter and Setter
+    
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+    }
+
+    
+
+
 
 }
