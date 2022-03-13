@@ -90,6 +90,14 @@ class Usuario
     {
         $this->local_acesso = $local_acesso;
     }
+    public function getLogado()
+    {
+        return $this->logado;
+    }
+    function setLogado($logado)
+    {
+        $this->logado = $logado;
+    }
 
 
 }
