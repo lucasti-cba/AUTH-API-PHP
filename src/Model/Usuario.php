@@ -82,6 +82,14 @@ class Usuario
     {
         $this->ativo = $ativo;
     }
+    public function getLocalAcesso()
+    {
+        return $this->local_acesso;
+    }
+    function setLocalAcessp($local_acesso)
+    {
+        $this->local_acesso = $local_acesso;
+    }
 
 
 }
