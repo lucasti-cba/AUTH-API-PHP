@@ -122,6 +122,16 @@ class Usuario
     {
         $this->matricula = $matricula;
     }
+    
+    public function getTrocarSenha()
+    {
+        return $this->trocar_senha;
+    }
+    function setTrocarSenha($trocar_senha)
+    {
+        $this->trocar_senha = $trocar_senha;
+    }
+
 
 
 
